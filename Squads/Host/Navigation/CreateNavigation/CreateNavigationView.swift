@@ -1,9 +1,10 @@
 import SwiftUI
+import Create
 
 struct CreateNavigationView: View {
     var body: some View {
         NavigationView {
-            Text("Create")
+            CreateScreen()
         }
     }
 }
