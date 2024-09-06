@@ -21,6 +21,7 @@ struct SquadTypeSelectorView: View {
         .refreshable {
             await viewModel.send(action: .refresh)
         }
+        .navigationTitle("Squad Types")
     }
 }
 

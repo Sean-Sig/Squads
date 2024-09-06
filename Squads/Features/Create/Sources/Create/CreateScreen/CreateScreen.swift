@@ -6,29 +6,17 @@ public struct CreateScreen: View {
     public init() {}
 
     public var body: some View {
-        HStack(spacing: 16) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 12)
-                    .foregroundStyle(.purple)
-                    .frame(height: 200)
-                VStack {
-                    Image(systemName: "person.3")
-                    Text("Create Squad")
-                        .font(.title2)
-                }
+        VStack(spacing: 16) {
+            Text("Name Your Squad")
+
+            NavigationLink {
+                SquadTypeSelectorView()
+            } label: {
+                Text("Squad type")
             }
-            ZStack {
-                RoundedRectangle(cornerRadius: 12)
-                    .foregroundStyle(.purple)
-                    .frame(height: 200)
-                VStack {
-                    Image(systemName: "play")
-                    Text("Create Game")
-                        .font(.title2)
-                }
-            }
+
+            Text("Create My Squad!")
         }
-        .padding()
         .navigationTitle("Create")
     }
 }
