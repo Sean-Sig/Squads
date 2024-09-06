@@ -24,7 +24,7 @@ final class SquadGroupsScreenViewModel: ObservableObject {
     @MainActor
     private func fetchSquads() async {
         do {
-            try? await Task.sleep(nanoseconds: 7_500_000_000)
+            try? await Task.sleep(nanoseconds: 9_500_000)
             self.model = AsyncModel(value: .squadGroupsMock)
         }
     }

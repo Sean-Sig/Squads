@@ -21,6 +21,7 @@
 		303CE9E82C8B60BE00E3D49B /* SquadGroups in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9E72C8B60BE00E3D49B /* SquadGroups */; };
 		303CE9EB2C8B671400E3D49B /* CommonFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9EA2C8B671400E3D49B /* CommonFoundation */; };
 		303CE9EF2C8B6BC200E3D49B /* Messages in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9EE2C8B6BC200E3D49B /* Messages */; };
+		303CE9F22C8B766100E3D49B /* Profile in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9F12C8B766100E3D49B /* Profile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		303CE9E62C8B605E00E3D49B /* SquadGroups */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SquadGroups; sourceTree = "<group>"; };
 		303CE9E92C8B660A00E3D49B /* CommonFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonFoundation; sourceTree = "<group>"; };
 		303CE9ED2C8B6AEA00E3D49B /* Messages */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Messages; sourceTree = "<group>"; };
+		303CE9F02C8B75A900E3D49B /* Profile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Profile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303CE9F22C8B766100E3D49B /* Profile in Frameworks */,
 				303CE9EF2C8B6BC200E3D49B /* Messages in Frameworks */,
 				303CE9EB2C8B671400E3D49B /* CommonFoundation in Frameworks */,
 				303CE9E82C8B60BE00E3D49B /* SquadGroups in Frameworks */,
@@ -128,6 +131,7 @@
 		303CE9C62C8B56CE00E3D49B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9F02C8B75A900E3D49B /* Profile */,
 				303CE9ED2C8B6AEA00E3D49B /* Messages */,
 				303CE9E62C8B605E00E3D49B /* SquadGroups */,
 			);
@@ -227,6 +231,7 @@
 				303CE9E72C8B60BE00E3D49B /* SquadGroups */,
 				303CE9EA2C8B671400E3D49B /* CommonFoundation */,
 				303CE9EE2C8B6BC200E3D49B /* Messages */,
+				303CE9F12C8B766100E3D49B /* Profile */,
 			);
 			productName = Squads;
 			productReference = 303CE9B12C8B568D00E3D49B /* Squads.app */;
@@ -543,6 +548,10 @@
 		303CE9EE2C8B6BC200E3D49B /* Messages */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Messages;
+		};
+		303CE9F12C8B766100E3D49B /* Profile */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Profile;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

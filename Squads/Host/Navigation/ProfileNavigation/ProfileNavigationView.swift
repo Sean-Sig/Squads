@@ -1,9 +1,10 @@
 import SwiftUI
+import Profile
 
 struct ProfileNavigationView: View {
     var body: some View {
         NavigationView {
-            Text("Profile")
+            ProfileScreen()
         }
     }
 }

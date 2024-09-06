@@ -15,16 +15,16 @@ final class MessageScreenViewModel: ObservableObject {
     func send(action: MessageGroupsScreenAction) async {
         switch action {
         case .fetch, .refresh:
-            await fetchSquads()
+            await fetchMessages()
         case .setError(let error):
             model.error = error
         }
     }
 
     @MainActor
-    private func fetchSquads() async {
+    private func fetchMessages() async {
         do {
-            try? await Task.sleep(nanoseconds: 7_500_000_000)
+            try? await Task.sleep(nanoseconds: 9_500_000)
             self.model = AsyncModel(value: .messageGroupsMock)
         }
     }
