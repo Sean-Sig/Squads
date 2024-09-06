@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Squads
-//
-//  Created by Sean Siggard on 9/6/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -19,6 +12,8 @@ struct ContentView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     ContentView()
 }
+#endif

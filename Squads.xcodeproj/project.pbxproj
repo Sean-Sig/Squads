@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		303CE9B52C8B568D00E3D49B /* SquadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9B42C8B568D00E3D49B /* SquadsApp.swift */; };
-		303CE9B72C8B568D00E3D49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9B62C8B568D00E3D49B /* ContentView.swift */; };
 		303CE9B92C8B568E00E3D49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303CE9B82C8B568E00E3D49B /* Assets.xcassets */; };
 		303CE9BD2C8B568E00E3D49B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303CE9BC2C8B568E00E3D49B /* Preview Assets.xcassets */; };
+		303CE9CB2C8B58B800E3D49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CA2C8B58B800E3D49B /* ContentView.swift */; };
+		303CE9CD2C8B58D800E3D49B /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CC2C8B58D800E3D49B /* RootTabView.swift */; };
+		303CE9CF2C8B590600E3D49B /* RootTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CE2C8B590600E3D49B /* RootTabItem.swift */; };
+		303CE9D32C8B5A0F00E3D49B /* SquadsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */; };
+		303CE9D92C8B5BB900E3D49B /* ProfileNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */; };
+		303CE9DB2C8B5BC700E3D49B /* MessagesNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */; };
+		303CE9DD2C8B5BD800E3D49B /* CreateNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */; };
+		303CE9E02C8B5BEF00E3D49B /* ExploreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		303CE9B12C8B568D00E3D49B /* Squads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303CE9B42C8B568D00E3D49B /* SquadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsApp.swift; sourceTree = "<group>"; };
-		303CE9B62C8B568D00E3D49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303CE9B82C8B568E00E3D49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303CE9BA2C8B568E00E3D49B /* Squads.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Squads.entitlements; sourceTree = "<group>"; };
 		303CE9BC2C8B568E00E3D49B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		303CE9CA2C8B58B800E3D49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303CE9CC2C8B58D800E3D49B /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		303CE9CE2C8B590600E3D49B /* RootTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabItem.swift; sourceTree = "<group>"; };
+		303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsNavigationView.swift; sourceTree = "<group>"; };
+		303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationView.swift; sourceTree = "<group>"; };
+		303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesNavigationView.swift; sourceTree = "<group>"; };
+		303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNavigationView.swift; sourceTree = "<group>"; };
+		303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +69,6 @@
 				303CE9C32C8B56B100E3D49B /* Host */,
 				303CE9C62C8B56CE00E3D49B /* Features */,
 				303CE9C72C8B56D600E3D49B /* Foundation */,
-				303CE9B42C8B568D00E3D49B /* SquadsApp.swift */,
-				303CE9B62C8B568D00E3D49B /* ContentView.swift */,
 				303CE9B82C8B568E00E3D49B /* Assets.xcassets */,
 				303CE9BA2C8B568E00E3D49B /* Squads.entitlements */,
 				303CE9BB2C8B568E00E3D49B /* Preview Content */,
@@ -84,6 +96,13 @@
 		303CE9C42C8B56B700E3D49B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9D72C8B5BA400E3D49B /* ProfileNavigation */,
+				303CE9D62C8B5B9600E3D49B /* MessagesNavigation */,
+				303CE9D52C8B5B8900E3D49B /* CreateNavigation */,
+				303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */,
+				303CE9D12C8B59F700E3D49B /* SquadsNavigation */,
+				303CE9C92C8B58A000E3D49B /* ContentView */,
+				303CE9C82C8B589800E3D49B /* RootTab */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 		303CE9C52C8B56BF00E3D49B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9B42C8B568D00E3D49B /* SquadsApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -109,6 +129,63 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		303CE9C82C8B589800E3D49B /* RootTab */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9CC2C8B58D800E3D49B /* RootTabView.swift */,
+				303CE9CE2C8B590600E3D49B /* RootTabItem.swift */,
+			);
+			path = RootTab;
+			sourceTree = "<group>";
+		};
+		303CE9C92C8B58A000E3D49B /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9CA2C8B58B800E3D49B /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		303CE9D12C8B59F700E3D49B /* SquadsNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */,
+			);
+			path = SquadsNavigation;
+			sourceTree = "<group>";
+		};
+		303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */,
+			);
+			path = ExploreNavigation;
+			sourceTree = "<group>";
+		};
+		303CE9D52C8B5B8900E3D49B /* CreateNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */,
+			);
+			path = CreateNavigation;
+			sourceTree = "<group>";
+		};
+		303CE9D62C8B5B9600E3D49B /* MessagesNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */,
+			);
+			path = MessagesNavigation;
+			sourceTree = "<group>";
+		};
+		303CE9D72C8B5BA400E3D49B /* ProfileNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */,
+			);
+			path = ProfileNavigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +196,7 @@
 				303CE9AD2C8B568D00E3D49B /* Sources */,
 				303CE9AE2C8B568D00E3D49B /* Frameworks */,
 				303CE9AF2C8B568D00E3D49B /* Resources */,
+				303CE9D02C8B593700E3D49B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -174,13 +252,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		303CE9D02C8B593700E3D49B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		303CE9AD2C8B568D00E3D49B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303CE9B72C8B568D00E3D49B /* ContentView.swift in Sources */,
+				303CE9D32C8B5A0F00E3D49B /* SquadsNavigationView.swift in Sources */,
 				303CE9B52C8B568D00E3D49B /* SquadsApp.swift in Sources */,
+				303CE9CD2C8B58D800E3D49B /* RootTabView.swift in Sources */,
+				303CE9CF2C8B590600E3D49B /* RootTabItem.swift in Sources */,
+				303CE9DD2C8B5BD800E3D49B /* CreateNavigationView.swift in Sources */,
+				303CE9E02C8B5BEF00E3D49B /* ExploreNavigationView.swift in Sources */,
+				303CE9D92C8B5BB900E3D49B /* ProfileNavigationView.swift in Sources */,
+				303CE9DB2C8B5BC700E3D49B /* MessagesNavigationView.swift in Sources */,
+				303CE9CB2C8B58B800E3D49B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +330,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -285,7 +391,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
