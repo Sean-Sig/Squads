@@ -1,9 +1,10 @@
 import SwiftUI
+import Messages
 
 struct MessagesNavigationView: View {
     var body: some View {
         NavigationView {
-            Text("Messages")
+            MessageScreen()
         }
     }
 }
