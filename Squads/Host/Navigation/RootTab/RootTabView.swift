@@ -2,13 +2,13 @@ import SwiftUI
 
 struct RootTabView: View {
 
-    let rootTabItems: [RootTabItem] = [.squads, .explore, .create, .messages, .profile]
+    let rootTabItems: [RootTabItem] = [.squadGroups, .explore, .create, .messages, .profile]
 
     var body: some View {
         TabView {
             ForEach(rootTabItems, id: \.self) { tabItem in
                 switch tabItem {
-                case .squads:
+                case .squadGroups:
                     squadsRootTabView
                         .tag(tabItem)
                 case .explore:
@@ -31,7 +31,7 @@ struct RootTabView: View {
 
 private extension RootTabView {
     var squadsRootTabView: some View {
-        SquadsNavigationView()
+        SquadGroupsNavigationView()
             .tabItem {
                 Label {
                     Text("Squads")

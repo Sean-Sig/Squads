@@ -1,7 +1,7 @@
 import Foundation
 
 enum RootTabItem: Int {
-    case squads
+    case squadGroups
     case explore
     case create
     case messages

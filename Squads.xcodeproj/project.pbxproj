@@ -13,11 +13,13 @@
 		303CE9CB2C8B58B800E3D49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CA2C8B58B800E3D49B /* ContentView.swift */; };
 		303CE9CD2C8B58D800E3D49B /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CC2C8B58D800E3D49B /* RootTabView.swift */; };
 		303CE9CF2C8B590600E3D49B /* RootTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9CE2C8B590600E3D49B /* RootTabItem.swift */; };
-		303CE9D32C8B5A0F00E3D49B /* SquadsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */; };
+		303CE9D32C8B5A0F00E3D49B /* SquadGroupsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D22C8B5A0F00E3D49B /* SquadGroupsNavigationView.swift */; };
 		303CE9D92C8B5BB900E3D49B /* ProfileNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */; };
 		303CE9DB2C8B5BC700E3D49B /* MessagesNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */; };
 		303CE9DD2C8B5BD800E3D49B /* CreateNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */; };
 		303CE9E02C8B5BEF00E3D49B /* ExploreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */; };
+		303CE9E82C8B60BE00E3D49B /* SquadGroups in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9E72C8B60BE00E3D49B /* SquadGroups */; };
+		303CE9EB2C8B671400E3D49B /* CommonFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9EA2C8B671400E3D49B /* CommonFoundation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +31,13 @@
 		303CE9CA2C8B58B800E3D49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303CE9CC2C8B58D800E3D49B /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		303CE9CE2C8B590600E3D49B /* RootTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabItem.swift; sourceTree = "<group>"; };
-		303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsNavigationView.swift; sourceTree = "<group>"; };
+		303CE9D22C8B5A0F00E3D49B /* SquadGroupsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadGroupsNavigationView.swift; sourceTree = "<group>"; };
 		303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationView.swift; sourceTree = "<group>"; };
 		303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesNavigationView.swift; sourceTree = "<group>"; };
 		303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNavigationView.swift; sourceTree = "<group>"; };
 		303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNavigationView.swift; sourceTree = "<group>"; };
+		303CE9E62C8B605E00E3D49B /* SquadGroups */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SquadGroups; sourceTree = "<group>"; };
+		303CE9E92C8B660A00E3D49B /* CommonFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonFoundation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303CE9EB2C8B671400E3D49B /* CommonFoundation in Frameworks */,
+				303CE9E82C8B60BE00E3D49B /* SquadGroups in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +58,7 @@
 			children = (
 				303CE9B32C8B568D00E3D49B /* Squads */,
 				303CE9B22C8B568D00E3D49B /* Products */,
+				303CE9E22C8B5F7800E3D49B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,11 +103,11 @@
 		303CE9C42C8B56B700E3D49B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9E52C8B600500E3D49B /* SquadGroupsNavigation */,
 				303CE9D72C8B5BA400E3D49B /* ProfileNavigation */,
 				303CE9D62C8B5B9600E3D49B /* MessagesNavigation */,
 				303CE9D52C8B5B8900E3D49B /* CreateNavigation */,
 				303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */,
-				303CE9D12C8B59F700E3D49B /* SquadsNavigation */,
 				303CE9C92C8B58A000E3D49B /* ContentView */,
 				303CE9C82C8B589800E3D49B /* RootTab */,
 			);
@@ -118,6 +125,7 @@
 		303CE9C62C8B56CE00E3D49B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9E62C8B605E00E3D49B /* SquadGroups */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 		303CE9C72C8B56D600E3D49B /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				303CE9E92C8B660A00E3D49B /* CommonFoundation */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -144,14 +153,6 @@
 				303CE9CA2C8B58B800E3D49B /* ContentView.swift */,
 			);
 			path = ContentView;
-			sourceTree = "<group>";
-		};
-		303CE9D12C8B59F700E3D49B /* SquadsNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				303CE9D22C8B5A0F00E3D49B /* SquadsNavigationView.swift */,
-			);
-			path = SquadsNavigation;
 			sourceTree = "<group>";
 		};
 		303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */ = {
@@ -186,6 +187,21 @@
 			path = ProfileNavigation;
 			sourceTree = "<group>";
 		};
+		303CE9E22C8B5F7800E3D49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		303CE9E52C8B600500E3D49B /* SquadGroupsNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				303CE9D22C8B5A0F00E3D49B /* SquadGroupsNavigationView.swift */,
+			);
+			path = SquadGroupsNavigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +219,10 @@
 			dependencies = (
 			);
 			name = Squads;
+			packageProductDependencies = (
+				303CE9E72C8B60BE00E3D49B /* SquadGroups */,
+				303CE9EA2C8B671400E3D49B /* CommonFoundation */,
+			);
 			productName = Squads;
 			productReference = 303CE9B12C8B568D00E3D49B /* Squads.app */;
 			productType = "com.apple.product-type.application";
@@ -278,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303CE9D32C8B5A0F00E3D49B /* SquadsNavigationView.swift in Sources */,
+				303CE9D32C8B5A0F00E3D49B /* SquadGroupsNavigationView.swift in Sources */,
 				303CE9B52C8B568D00E3D49B /* SquadsApp.swift in Sources */,
 				303CE9CD2C8B58D800E3D49B /* RootTabView.swift in Sources */,
 				303CE9CF2C8B590600E3D49B /* RootTabItem.swift in Sources */,
@@ -505,6 +525,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		303CE9E72C8B60BE00E3D49B /* SquadGroups */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SquadGroups;
+		};
+		303CE9EA2C8B671400E3D49B /* CommonFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 303CE9A92C8B568D00E3D49B /* Project object */;
 }
