@@ -15,5 +15,11 @@ extension MessageGroupRowModel {
         mostRecentMessage: "Hey, the party is about to start!",
         messageDate: "10/28/2024"
     )
+    static let messageGroup2Mock = MessageGroupRowModel(
+        id: "avalon-2",
+        squadName: "Avalon Hoopers",
+        mostRecentMessage: "Hey, the party is about to start!",
+        messageDate: "10/28/2024"
+    )
 }
 #endif

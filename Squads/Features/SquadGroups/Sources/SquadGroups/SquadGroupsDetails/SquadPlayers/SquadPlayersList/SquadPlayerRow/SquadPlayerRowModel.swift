@@ -10,7 +10,12 @@ struct SquadPlayerRowModel: Equatable, Decodable {
 #if DEBUG
 extension SquadPlayerRowModel {
     static let squadPlayerMock = SquadPlayerRowModel(
-        playerId: "player-id_1",
+        playerId: "player-id-1",
+        firstName: "First",
+        lastName: "Last"
+    )
+    static let squadPlayer2Mock = SquadPlayerRowModel(
+        playerId: "player-id-2",
         firstName: "First",
         lastName: "Last"
     )

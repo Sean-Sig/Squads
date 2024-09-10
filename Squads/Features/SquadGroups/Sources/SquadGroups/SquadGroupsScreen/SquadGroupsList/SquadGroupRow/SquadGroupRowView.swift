@@ -6,7 +6,7 @@ struct SquadGroupRowView: View {
     var isLast: Bool = false
 
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             Button {
                 isActive.toggle()
             } label: {
@@ -14,6 +14,7 @@ struct SquadGroupRowView: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 8) {
                             Text(squadGroupRowModel.squadName)
+                                .font(.headline)
                             Text(squadGroupRowModel.squadType)
                         }
                         Spacer()
@@ -22,8 +23,7 @@ struct SquadGroupRowView: View {
                     }
                 }
             }
-            .padding(.horizontal)
-            .padding(.top, 8)
+            .padding()
             if !isLast {
                 Divider()
                     .padding(.leading)

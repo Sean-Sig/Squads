@@ -6,8 +6,12 @@ struct MessageGroupsListView: View {
     var body: some View {
         List {
             ForEach(messageGroupsListModel.messageGroups, id: \.id) { row in
-                MessageGroupRowView(messageGroupRowModel: row)
+                MessageGroupRowView(
+                    messageGroupRowModel: row,
+                    isLast: row.id == messageGroupsListModel.messageGroups.last?.id
+                )
                 .listRowInsets(EdgeInsets())
+                .listRowSeparator(.hidden)
             }
         }
         .listStyle(.plain)

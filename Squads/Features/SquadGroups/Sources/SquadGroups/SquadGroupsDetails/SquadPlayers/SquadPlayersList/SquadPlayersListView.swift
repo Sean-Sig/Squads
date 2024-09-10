@@ -6,8 +6,12 @@ struct SquadPlayersListView: View {
     var body: some View {
         List {
             ForEach(squadPlayersListModel.squadPlayers, id: \.id) { row in
-                SquadPlayerRowView(squadPlayerRowModel: row)
+                SquadPlayerRowView(
+                    squadPlayerRowModel: row,
+                    isLast: row.id == squadPlayersListModel.squadPlayers.last?.id
+                )
                 .listRowInsets(EdgeInsets())
+                .listRowSeparator(.hidden)
             }
         }
         .listStyle(.plain)

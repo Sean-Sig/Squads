@@ -15,6 +15,7 @@ struct SquadGroupsDetailsView: View {
                     VStack(spacing: 0) {
                         SquadLocationView()
                         Divider()
+                            .padding(.leading)
                         SquadDateTimeView()
                         SquadPlayersView(squadPlayersModel: viewModel.model.value.squadPlayersModel)
                     }

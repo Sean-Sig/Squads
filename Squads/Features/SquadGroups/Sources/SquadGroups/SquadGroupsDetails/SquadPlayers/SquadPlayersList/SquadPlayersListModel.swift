@@ -8,7 +8,8 @@ struct SquadPlayersListModel: Equatable, Decodable {
 extension SquadPlayersListModel {
     static let squadPlayersMock = SquadPlayersListModel(
         squadPlayers: [
-            .squadPlayerMock
+            .squadPlayerMock,
+            .squadPlayer2Mock
         ]
     )
 }

@@ -11,7 +11,7 @@ struct SquadGroupRowModel: Equatable, Decodable {
 #if DEBUG
 extension SquadGroupRowModel {
     static let squadGroupMock = SquadGroupRowModel(
-        squadId: "squad-id_1",
+        squadId: "squad-id-1",
         squadName: "Avalon Hoopers",
         squadType: "Basketball",
         squadMemberCount: "30"

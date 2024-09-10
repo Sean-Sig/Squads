@@ -8,7 +8,8 @@ struct MessageGroupsListModel: Equatable, Decodable {
 extension MessageGroupsListModel {
     static let messageGroupsMock = MessageGroupsListModel(
         messageGroups: [
-            .messageGroupMock
+            .messageGroupMock,
+            .messageGroup2Mock
         ]
     )
 }
