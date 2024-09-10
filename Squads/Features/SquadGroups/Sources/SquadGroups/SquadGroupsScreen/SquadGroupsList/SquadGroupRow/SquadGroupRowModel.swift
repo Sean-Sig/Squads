@@ -1,7 +1,8 @@
 import Foundation
 
 struct SquadGroupRowModel: Equatable, Decodable {
-    var id: String
+    var id: String {squadId}
+    var squadId: String
     var squadName: String
     var squadType: String
     var squadMemberCount: String
@@ -10,7 +11,7 @@ struct SquadGroupRowModel: Equatable, Decodable {
 #if DEBUG
 extension SquadGroupRowModel {
     static let squadGroupMock = SquadGroupRowModel(
-        id: "avalon-1",
+        squadId: "squad-id_1",
         squadName: "Avalon Hoopers",
         squadType: "Basketball",
         squadMemberCount: "30"
