@@ -7,6 +7,7 @@ struct SquadTypeSelectorView: View {
         VStack(spacing: 0) {
             if viewModel.model.isLoading {
                 Text("loading...")
+                    .shimmer()
             } else if viewModel.model.error != nil {
                 Text("Error")
             } else {

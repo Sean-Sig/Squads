@@ -24,7 +24,7 @@ final class GamesScreenViewModel: ObservableObject {
     @MainActor
     private func fetchGames() async {
         do {
-            try? await Task.sleep(nanoseconds: 9_500_000)
+            try? await Task.sleep(nanoseconds: 950_000_000)
             self.model = AsyncModel(value: .gamesRowMock)
         }
     }
