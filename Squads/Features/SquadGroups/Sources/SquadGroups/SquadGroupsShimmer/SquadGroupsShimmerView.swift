@@ -12,16 +12,16 @@ struct SquadGroupsShimmerView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 8) {
                     Rectangle()
-                        .frame(width: 130, height: 15)
+                        .frame(width: 130, height: 18)
                         .font(.headline)
                         .shimmer()
                     Rectangle()
-                        .frame(width: 80, height: 15)
+                        .frame(width: 80, height: 18)
                         .shimmer()
                 }
                 Spacer()
                 Rectangle()
-                    .frame(width: 50, height: 15)
+                    .frame(width: 50, height: 18)
                     .shimmer()
             }
         }
