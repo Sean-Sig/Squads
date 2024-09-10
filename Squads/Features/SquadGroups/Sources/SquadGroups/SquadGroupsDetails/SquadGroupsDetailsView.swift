@@ -13,6 +13,9 @@ struct SquadGroupsDetailsView: View {
                     Text("Error")
                 } else {
                     VStack(spacing: 0) {
+                        SquadLocationView()
+                        Divider()
+                        SquadDateTimeView()
                         SquadPlayersView(squadPlayersModel: viewModel.model.value.squadPlayersModel)
                     }
                 }
