@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301DC55B2C90911F005F6C36 /* GamesNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301DC55A2C90911F005F6C36 /* GamesNavigationView.swift */; };
+		301DC55E2C909193005F6C36 /* Games in Frameworks */ = {isa = PBXBuildFile; productRef = 301DC55D2C909193005F6C36 /* Games */; };
 		303CE9B52C8B568D00E3D49B /* SquadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9B42C8B568D00E3D49B /* SquadsApp.swift */; };
 		303CE9B92C8B568E00E3D49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303CE9B82C8B568E00E3D49B /* Assets.xcassets */; };
 		303CE9BD2C8B568E00E3D49B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303CE9BC2C8B568E00E3D49B /* Preview Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		303CE9D92C8B5BB900E3D49B /* ProfileNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */; };
 		303CE9DB2C8B5BC700E3D49B /* MessagesNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */; };
 		303CE9DD2C8B5BD800E3D49B /* CreateNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */; };
-		303CE9E02C8B5BEF00E3D49B /* ExploreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */; };
 		303CE9E82C8B60BE00E3D49B /* SquadGroups in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9E72C8B60BE00E3D49B /* SquadGroups */; };
 		303CE9EB2C8B671400E3D49B /* CommonFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9EA2C8B671400E3D49B /* CommonFoundation */; };
 		303CE9EF2C8B6BC200E3D49B /* Messages in Frameworks */ = {isa = PBXBuildFile; productRef = 303CE9EE2C8B6BC200E3D49B /* Messages */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301DC55A2C90911F005F6C36 /* GamesNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesNavigationView.swift; sourceTree = "<group>"; };
+		301DC55C2C90915C005F6C36 /* Games */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Games; sourceTree = "<group>"; };
 		303CE9B12C8B568D00E3D49B /* Squads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303CE9B42C8B568D00E3D49B /* SquadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsApp.swift; sourceTree = "<group>"; };
 		303CE9B82C8B568E00E3D49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +41,6 @@
 		303CE9D82C8B5BB900E3D49B /* ProfileNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationView.swift; sourceTree = "<group>"; };
 		303CE9DA2C8B5BC700E3D49B /* MessagesNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesNavigationView.swift; sourceTree = "<group>"; };
 		303CE9DC2C8B5BD800E3D49B /* CreateNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNavigationView.swift; sourceTree = "<group>"; };
-		303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNavigationView.swift; sourceTree = "<group>"; };
 		303CE9E62C8B605E00E3D49B /* SquadGroups */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SquadGroups; sourceTree = "<group>"; };
 		303CE9E92C8B660A00E3D49B /* CommonFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonFoundation; sourceTree = "<group>"; };
 		303CE9ED2C8B6AEA00E3D49B /* Messages */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Messages; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301DC55E2C909193005F6C36 /* Games in Frameworks */,
 				303CE9F52C8B866900E3D49B /* Create in Frameworks */,
 				303CE9F22C8B766100E3D49B /* Profile in Frameworks */,
 				303CE9EF2C8B6BC200E3D49B /* Messages in Frameworks */,
@@ -62,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301DC5592C909109005F6C36 /* GamesNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				301DC55A2C90911F005F6C36 /* GamesNavigationView.swift */,
+			);
+			path = GamesNavigation;
+			sourceTree = "<group>";
+		};
 		303CE9A82C8B568D00E3D49B = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +123,11 @@
 		303CE9C42C8B56B700E3D49B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				301DC5592C909109005F6C36 /* GamesNavigation */,
 				303CE9E52C8B600500E3D49B /* SquadGroupsNavigation */,
 				303CE9D72C8B5BA400E3D49B /* ProfileNavigation */,
 				303CE9D62C8B5B9600E3D49B /* MessagesNavigation */,
 				303CE9D52C8B5B8900E3D49B /* CreateNavigation */,
-				303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */,
 				303CE9C92C8B58A000E3D49B /* ContentView */,
 				303CE9C82C8B589800E3D49B /* RootTab */,
 			);
@@ -134,6 +145,7 @@
 		303CE9C62C8B56CE00E3D49B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				301DC55C2C90915C005F6C36 /* Games */,
 				303CE9F32C8B863700E3D49B /* Create */,
 				303CE9F02C8B75A900E3D49B /* Profile */,
 				303CE9ED2C8B6AEA00E3D49B /* Messages */,
@@ -165,14 +177,6 @@
 				303CE9CA2C8B58B800E3D49B /* ContentView.swift */,
 			);
 			path = ContentView;
-			sourceTree = "<group>";
-		};
-		303CE9D42C8B5B7F00E3D49B /* ExploreNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				303CE9DF2C8B5BEF00E3D49B /* ExploreNavigationView.swift */,
-			);
-			path = ExploreNavigation;
 			sourceTree = "<group>";
 		};
 		303CE9D52C8B5B8900E3D49B /* CreateNavigation */ = {
@@ -237,6 +241,7 @@
 				303CE9EE2C8B6BC200E3D49B /* Messages */,
 				303CE9F12C8B766100E3D49B /* Profile */,
 				303CE9F42C8B866900E3D49B /* Create */,
+				301DC55D2C909193005F6C36 /* Games */,
 			);
 			productName = Squads;
 			productReference = 303CE9B12C8B568D00E3D49B /* Squads.app */;
@@ -317,8 +322,8 @@
 				303CE9B52C8B568D00E3D49B /* SquadsApp.swift in Sources */,
 				303CE9CD2C8B58D800E3D49B /* RootTabView.swift in Sources */,
 				303CE9CF2C8B590600E3D49B /* RootTabItem.swift in Sources */,
+				301DC55B2C90911F005F6C36 /* GamesNavigationView.swift in Sources */,
 				303CE9DD2C8B5BD800E3D49B /* CreateNavigationView.swift in Sources */,
-				303CE9E02C8B5BEF00E3D49B /* ExploreNavigationView.swift in Sources */,
 				303CE9D92C8B5BB900E3D49B /* ProfileNavigationView.swift in Sources */,
 				303CE9DB2C8B5BC700E3D49B /* MessagesNavigationView.swift in Sources */,
 				303CE9CB2C8B58B800E3D49B /* ContentView.swift in Sources */,
@@ -542,6 +547,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		301DC55D2C909193005F6C36 /* Games */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Games;
+		};
 		303CE9E72C8B60BE00E3D49B /* SquadGroups */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SquadGroups;

@@ -1,15 +1,16 @@
 import SwiftUI
+import Games
 
-struct ExploreNavigationView: View {
+struct GamesNavigationView: View {
     var body: some View {
         NavigationView {
-            Text("Explore")
+            GamesScreen()
         }
     }
 }
 
 #if DEBUG
 #Preview {
-    ExploreNavigationView()
+    GamesNavigationView()
 }
 #endif

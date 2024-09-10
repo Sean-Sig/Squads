@@ -2,7 +2,7 @@ import SwiftUI
 
 struct RootTabView: View {
 
-    let rootTabItems: [RootTabItem] = [.squadGroups, .explore, .create, .messages, .profile]
+    let rootTabItems: [RootTabItem] = [.squadGroups, .games, .create, .messages, .profile]
 
     var body: some View {
         TabView {
@@ -11,8 +11,8 @@ struct RootTabView: View {
                 case .squadGroups:
                     squadsRootTabView
                         .tag(tabItem)
-                case .explore:
-                    exploreRootTabView
+                case .games:
+                    gamesRootTabView
                         .tag(tabItem)
                 case .create:
                     createRootTabView
@@ -40,13 +40,13 @@ private extension RootTabView {
                 }
             }
     }
-    var exploreRootTabView: some View {
-        ExploreNavigationView()
+    var gamesRootTabView: some View {
+        GamesNavigationView()
             .tabItem {
                 Label {
-                    Text("Explore")
+                    Text("Upcoming")
                 } icon: {
-                    Image(systemName: "globe")
+                    Image(systemName: "calendar")
                 }
             }
     }
@@ -56,7 +56,7 @@ private extension RootTabView {
                 Label {
                     Text("Create")
                 } icon: {
-                    Image(systemName: "plus")
+                    Image(systemName: "plus.circle")
                 }
             }
     }
