@@ -33,7 +33,7 @@ final class SquadGroupDetailsScreenViewModel: ObservableObject {
     @MainActor
     private func fetchSquadDetails(squadId: String) async {
         do {
-            try? await Task.sleep(nanoseconds: 9_500_000)
+            try? await Task.sleep(nanoseconds: 9_500_000_00)
             self.model = AsyncModel(value: SquadGroupsDetailsModel(
                 squadPlayersModel: SquadPlayersModel(squadPlayerListModel: .squadPlayersMock))
             )

@@ -4,6 +4,8 @@ struct SquadGroupsShimmerView: View {
     var body: some View {
         ScrollView {
             squadRowShimmerView
+            Divider()
+            squadRowShimmerView
         }
     }
 

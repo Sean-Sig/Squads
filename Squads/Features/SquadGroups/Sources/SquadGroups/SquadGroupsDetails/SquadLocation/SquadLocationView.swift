@@ -11,6 +11,7 @@ struct SquadLocationView: View {
             .padding()
             RoundedRectangle(cornerRadius: 8)
                 .fill(.tertiary)
+                .frame(height: 200)
             HStack {
                 Image(systemName: "pin")
                 VStack(alignment: .leading) {

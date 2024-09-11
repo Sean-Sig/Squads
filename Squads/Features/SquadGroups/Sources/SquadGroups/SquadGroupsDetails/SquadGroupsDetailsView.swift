@@ -8,7 +8,7 @@ struct SquadGroupsDetailsView: View {
         NavigationView {
             VStack(spacing: 0) {
                 if viewModel.model.isLoading {
-                    Text("loading...")
+                    SquadGroupDetailsShimmerView()
                 } else if viewModel.model.error != nil {
                     Text("Error")
                 } else {

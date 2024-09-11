@@ -8,8 +8,7 @@ public struct MessageScreen: View {
     public var body: some View {
         VStack(spacing: 0) {
             if viewModel.model.isLoading {
-                Text("loading...")
-                    .shimmer()
+                MessagesScreenShimmerView()
             } else if viewModel.model.error != nil {
                 Text("Error")
             } else {
